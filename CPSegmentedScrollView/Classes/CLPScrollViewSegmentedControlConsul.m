@@ -44,15 +44,19 @@
     
     NSAssert([scrollView delegate], @"Please set your delegate prior calling %@", NSStringFromSelector(_cmd));
     
-    NSUInteger numberOfScrollViewSubviews = [[scrollView subviews] count];
-
-    NSAssert(numberOfScrollViewSubviews > 1, @"We need atleast two views in the scroll view.");
+    #if !defined(NS_BLOCK_ASSERTIONS)
     
-    NSUInteger numberOfSegments = [segmentedControl numberOfSegments];
+        NSUInteger numberOfScrollViewSubviews = [[scrollView subviews] count];
 
-    NSAssert(numberOfSegments > 1, @"We need atleast two items in the segmented control.");
+        NSAssert(numberOfScrollViewSubviews > 1, @"We need atleast two views in the scroll view.");
+        
+        NSUInteger numberOfSegments = [segmentedControl numberOfSegments];
 
-    NSParameterAssert(numberOfScrollViewSubviews == numberOfSegments);
+        NSAssert(numberOfSegments > 1, @"We need atleast two items in the segmented control.");
+
+        NSParameterAssert(numberOfScrollViewSubviews == numberOfSegments);
+
+    #endif
     
     NSParameterAssert([scrollView isPagingEnabled]);
     
