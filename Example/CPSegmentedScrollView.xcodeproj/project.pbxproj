@@ -309,13 +309,14 @@
 				TargetAttributes = {
 					592CBAAC1DA92D6B008E64CF = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 					6003F589195388D20070C39A = {
 						ProvisioningStyle = Manual;
 					};
 					6003F5AD195388D20070C39A = {
+						ProvisioningStyle = Manual;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -723,6 +724,7 @@
 			baseConfigurationReference = 7F6D300EFDE9BE23D9798883 /* Pods-CPSegmentedScrollView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -747,6 +749,7 @@
 			baseConfigurationReference = 88297332BE28B3EDB85F9795 /* Pods-CPSegmentedScrollView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
