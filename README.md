@@ -1,6 +1,6 @@
 # CPSegmentedScrollView
 
-[![CI Status](http://img.shields.io/travis/Clément Padovani/CPSegmentedScrollView.svg?style=flat)](https://travis-ci.org/Clément Padovani/CPSegmentedScrollView)
+[![CI Status](https://travis-ci.org/ClementPadovani/CPSegmentedScrollView.svg?branch=master)](https://travis-ci.org/ClementPadovani/CPSegmentedScrollView)
 [![Version](https://img.shields.io/cocoapods/v/CPSegmentedScrollView.svg?style=flat)](http://cocoapods.org/pods/CPSegmentedScrollView)
 [![License](https://img.shields.io/cocoapods/l/CPSegmentedScrollView.svg?style=flat)](http://cocoapods.org/pods/CPSegmentedScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/CPSegmentedScrollView.svg?style=flat)](http://cocoapods.org/pods/CPSegmentedScrollView)
