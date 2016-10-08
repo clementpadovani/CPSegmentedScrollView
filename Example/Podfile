@@ -8,4 +8,8 @@ target 'CPSegmentedScrollView_Example' do
 
     pod 'OCMockito'
   end
+  
+  target 'CPSegmentedScrollView_ExampleUITests' do
+    inherit! :search_paths
+  end
 end

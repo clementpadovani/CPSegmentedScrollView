@@ -38,6 +38,16 @@
                ReferencedContainer = "container:CPSegmentedScrollView.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "592CBAAC1DA92D6B008E64CF"
+               BuildableName = "CPSegmentedScrollView_ExampleUITests.xctest"
+               BlueprintName = "CPSegmentedScrollView_ExampleUITests"
+               ReferencedContainer = "container:CPSegmentedScrollView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

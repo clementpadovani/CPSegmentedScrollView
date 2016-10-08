@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036819B0229A1C189423D4F6 /* Pods_CPSegmentedScrollView_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541BBAEE3BD4D85F5BB17670 /* Pods_CPSegmentedScrollView_ExampleUITests.framework */; };
 		592CBAA71DA92D41008E64CF /* CLPScrollViewProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CBAA51DA92D41008E64CF /* CLPScrollViewProxyTests.m */; };
 		592CBAA81DA92D41008E64CF /* CLPScrollViewSegmentedControlConsulTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CBAA61DA92D41008E64CF /* CLPScrollViewSegmentedControlConsulTests.m */; };
+		592CBAB01DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CBAAF1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -27,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		592CBAB21DA92D6B008E64CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = CPSegmentedScrollView_Example;
+		};
 		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -40,8 +49,13 @@
 		247FF6FA101AC07FE064FED0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		29935F027E8FA55215A7046F /* Pods_CPSegmentedScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPSegmentedScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC8BB46C2C107C0E876D951 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BA9FA61738D820BDE1943AF /* Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		541BBAEE3BD4D85F5BB17670 /* Pods_CPSegmentedScrollView_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPSegmentedScrollView_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		592CBAA51DA92D41008E64CF /* CLPScrollViewProxyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViewProxyTests.m; sourceTree = "<group>"; };
 		592CBAA61DA92D41008E64CF /* CLPScrollViewSegmentedControlConsulTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViewSegmentedControlConsulTests.m; sourceTree = "<group>"; };
+		592CBAAD1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPSegmentedScrollView_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592CBAAF1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedScrollView_ExampleUITests.m; sourceTree = "<group>"; };
+		592CBAB11DA92D6B008E64CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CPSegmentedScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPSegmentedScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,11 +79,20 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		88297332BE28B3EDB85F9795 /* Pods-CPSegmentedScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSegmentedScrollView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPSegmentedScrollView_Tests/Pods-CPSegmentedScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A31C26ADE65011FEDA7E83EC /* CPSegmentedScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPSegmentedScrollView.podspec; path = ../CPSegmentedScrollView.podspec; sourceTree = "<group>"; };
+		CF457D474A397FB47D58C21E /* Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E420BEC83163A9D41CBEDA77 /* Pods_CPSegmentedScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPSegmentedScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E806CAB3417A36772B234769 /* Pods-CPSegmentedScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPSegmentedScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPSegmentedScrollView_Example/Pods-CPSegmentedScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		592CBAAA1DA92D6B008E64CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036819B0229A1C189423D4F6 /* Pods_CPSegmentedScrollView_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F587195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,12 +118,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		592CBAAE1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				592CBAAF1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m */,
+				592CBAB11DA92D6B008E64CF /* Info.plist */,
+			);
+			path = CPSegmentedScrollView_ExampleUITests;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for CPSegmentedScrollView */,
 				6003F5B5195388D20070C39A /* Tests */,
+				592CBAAE1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				EA6B4880CF30B00F7DBB5BAF /* Pods */,
@@ -112,6 +145,7 @@
 			children = (
 				6003F58A195388D20070C39A /* CPSegmentedScrollView_Example.app */,
 				6003F5AE195388D20070C39A /* CPSegmentedScrollView_Tests.xctest */,
+				592CBAAD1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +159,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				E420BEC83163A9D41CBEDA77 /* Pods_CPSegmentedScrollView_Example.framework */,
 				29935F027E8FA55215A7046F /* Pods_CPSegmentedScrollView_Tests.framework */,
+				541BBAEE3BD4D85F5BB17670 /* Pods_CPSegmentedScrollView_ExampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +227,8 @@
 				E806CAB3417A36772B234769 /* Pods-CPSegmentedScrollView_Example.release.xcconfig */,
 				7F6D300EFDE9BE23D9798883 /* Pods-CPSegmentedScrollView_Tests.debug.xcconfig */,
 				88297332BE28B3EDB85F9795 /* Pods-CPSegmentedScrollView_Tests.release.xcconfig */,
+				3BA9FA61738D820BDE1943AF /* Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig */,
+				CF457D474A397FB47D58C21E /* Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -199,6 +236,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		592CBAAC1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592CBAB41DA92D6B008E64CF /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView_ExampleUITests" */;
+			buildPhases = (
+				0D64C4C61622FD8CD2E969D6 /* [CP] Check Pods Manifest.lock */,
+				592CBAA91DA92D6B008E64CF /* Sources */,
+				592CBAAA1DA92D6B008E64CF /* Frameworks */,
+				592CBAAB1DA92D6B008E64CF /* Resources */,
+				00903016B2B6280C8DD3AABB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592CBAB31DA92D6B008E64CF /* PBXTargetDependency */,
+			);
+			name = CPSegmentedScrollView_ExampleUITests;
+			productName = CPSegmentedScrollView_ExampleUITests;
+			productReference = 592CBAAD1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		6003F589195388D20070C39A /* CPSegmentedScrollView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView_Example" */;
@@ -250,6 +307,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Clément Padovani";
 				TargetAttributes = {
+					592CBAAC1DA92D6B008E64CF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -270,11 +332,19 @@
 			targets = (
 				6003F589195388D20070C39A /* CPSegmentedScrollView_Example */,
 				6003F5AD195388D20070C39A /* CPSegmentedScrollView_Tests */,
+				592CBAAC1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		592CBAAB1DA92D6B008E64CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F588195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,6 +366,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00903016B2B6280C8DD3AABB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0A47126A12E328CA5063C107 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,6 +394,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPSegmentedScrollView_Example/Pods-CPSegmentedScrollView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D64C4C61622FD8CD2E969D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4A93CE72EC738F4633E9705E /* [CP] Embed Pods Frameworks */ = {
@@ -389,6 +489,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		592CBAA91DA92D6B008E64CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592CBAB01DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +519,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		592CBAB31DA92D6B008E64CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* CPSegmentedScrollView_Example */;
+			targetProxy = 592CBAB21DA92D6B008E64CF /* PBXContainerItemProxy */;
+		};
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* CPSegmentedScrollView_Example */;
@@ -438,6 +551,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		592CBAB51DA92D6B008E64CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA9FA61738D820BDE1943AF /* Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CPSegmentedScrollView_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clement.padovani.CPSegmentedScrollView-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CPSegmentedScrollView_Example;
+			};
+			name = Debug;
+		};
+		592CBAB61DA92D6B008E64CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF457D474A397FB47D58C21E /* Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = CPSegmentedScrollView_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clement.padovani.CPSegmentedScrollView-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CPSegmentedScrollView_Example;
+			};
+			name = Release;
+		};
 		6003F5BD195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -590,6 +750,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		592CBAB41DA92D6B008E64CF /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592CBAB51DA92D6B008E64CF /* Debug */,
+				592CBAB61DA92D6B008E64CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6003F585195388D10070C39A /* Build configuration list for PBXProject "CPSegmentedScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
