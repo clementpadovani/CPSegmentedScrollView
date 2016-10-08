@@ -8,6 +8,8 @@
 
 @import XCTest;
 
+static const NSUInteger kCPSegmentedScrollView_ExampleUITestsNumberOfSegments = 5;
+
 @interface CPSegmentedScrollView_ExampleUITests : XCTestCase
 
 @end
@@ -22,7 +24,10 @@
     
     XCUIApplication *application = [[XCUIApplication alloc] init];
     
-    [application setLaunchArguments: @[@"-AppleLanguages (en-US)"]];
+    [application setLaunchArguments: @[@"-AppleLanguages",
+                                       @"(en-US)",
+                                       @"-kCPSegmentedScrollViewNumberOfSegments",
+                                       [@(kCPSegmentedScrollView_ExampleUITestsNumberOfSegments) stringValue]]];
     
     [application launch];
 }
