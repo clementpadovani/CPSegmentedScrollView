@@ -11,6 +11,7 @@
 		592CBAA71DA92D41008E64CF /* CLPScrollViewProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CBAA51DA92D41008E64CF /* CLPScrollViewProxyTests.m */; };
 		592CBAA81DA92D41008E64CF /* CLPScrollViewSegmentedControlConsulTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CBAA61DA92D41008E64CF /* CLPScrollViewSegmentedControlConsulTests.m */; };
 		592CBAB01DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592CBAAF1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m */; };
+		59354E8E1DA93552007033D5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59354E8D1DA93552007033D5 /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -56,6 +57,7 @@
 		592CBAAD1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPSegmentedScrollView_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		592CBAAF1DA92D6B008E64CF /* CPSegmentedScrollView_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPSegmentedScrollView_ExampleUITests.m; sourceTree = "<group>"; };
 		592CBAB11DA92D6B008E64CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59354E8D1DA93552007033D5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CPSegmentedScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPSegmentedScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 				6003F5A6195388D20070C39A /* CPViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				59354E8D1DA93552007033D5 /* Launch Screen.storyboard */,
 			);
 			name = "Example for CPSegmentedScrollView";
 			path = CPSegmentedScrollView;
@@ -355,6 +358,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				59354E8E1DA93552007033D5 /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -690,7 +694,6 @@
 			baseConfigurationReference = 7FB23ECC7D22479E9BF4C09F /* Pods-CPSegmentedScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPSegmentedScrollView/CPSegmentedScrollView-Prefix.pch";
@@ -707,7 +710,6 @@
 			baseConfigurationReference = E806CAB3417A36772B234769 /* Pods-CPSegmentedScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPSegmentedScrollView/CPSegmentedScrollView-Prefix.pch";
