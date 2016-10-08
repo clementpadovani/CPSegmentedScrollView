@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'CPSegmentedScrollView is a consul to animate a segmented control when paired with a scroll view.'
 
   s.homepage         = 'https://github.com/ClementPadovani/CPSegmentedScrollView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/ClementPadovani/CPSegmentedScrollView/master/CPSegmentedScrollView.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Clément Padovani' => 'ClementPadovani@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/ClementPadovani/CPSegmentedScrollView.git', :tag => s.version.to_s }
