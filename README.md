@@ -7,9 +7,13 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Run `pod try CPSegmentedScrollView`.
+
+![Example Gif](CPSegmentedScrollView.gif)
 
 ## Requirements
+
+iOS 8.0
 
 ## Installation
 
