@@ -1,0 +1,22 @@
+PODS:
+  - CPSegmentedScrollView (1.0.0)
+  - OCHamcrest (6.0.0)
+  - OCMockito (4.0.1):
+    - OCHamcrest (~> 6.0)
+
+DEPENDENCIES:
+  - CPSegmentedScrollView (from `../`)
+  - OCMockito
+
+EXTERNAL SOURCES:
+  CPSegmentedScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPSegmentedScrollView: ad59faf95ee1e33ad2f172d418e6f6c4b92247d2
+  OCHamcrest: fc8ab38149b97df8db8029a3f2157c951bf9081d
+  OCMockito: 62ddc6afff6a883f2864d51224b1dfdc0e9a7df7
+
+PODFILE CHECKSUM: 13896b7f59e982adcc283d0ff48463a1202859fb
+
+COCOAPODS: 1.0.1

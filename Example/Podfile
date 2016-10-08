@@ -6,6 +6,6 @@ target 'CPSegmentedScrollView_Example' do
   target 'CPSegmentedScrollView_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    pod 'OCMockito'
   end
 end

@@ -1,0 +1,6 @@
+framework module CPSegmentedScrollView {
+  umbrella header "CPSegmentedScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
