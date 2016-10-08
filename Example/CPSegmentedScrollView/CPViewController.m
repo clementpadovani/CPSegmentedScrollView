@@ -33,6 +33,9 @@
     
     NSUInteger numberOfPages = 2;
     
+    if ([[NSUserDefaults standardUserDefaults] objectForKey: @"kCPSegmentedScrollViewNumberOfSegments"])
+        numberOfPages = [[NSUserDefaults standardUserDefaults] integerForKey: @"kCPSegmentedScrollViewNumberOfSegments"];
+    
     NSMutableArray <NSString *> *items = [NSMutableArray arrayWithCapacity: numberOfPages];
     
     for (NSUInteger i = 0; i < numberOfPages; i++)
