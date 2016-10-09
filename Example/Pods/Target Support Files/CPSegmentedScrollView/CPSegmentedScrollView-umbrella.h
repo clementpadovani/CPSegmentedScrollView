@@ -1,6 +1,5 @@
 #import <UIKit/UIKit.h>
 
-#import "CLPScrollViewProxy.h"
 #import "CLPScrollViewSegmentedControlConsul.h"
 
 FOUNDATION_EXPORT double CPSegmentedScrollViewVersionNumber;
