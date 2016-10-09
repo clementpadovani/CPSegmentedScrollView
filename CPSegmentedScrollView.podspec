@@ -8,24 +8,26 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPSegmentedScrollView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'CPSegmentedScrollView is a consul to animate a segmented control when paired with a scroll view.'
 
   s.homepage         = 'https://github.com/ClementPadovani/CPSegmentedScrollView'
   s.screenshots     = 'https://raw.githubusercontent.com/ClementPadovani/CPSegmentedScrollView/master/CPSegmentedScrollView.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Clément Padovani' => 'ClementPadovani@users.noreply.github.com' }
+  s.author           = { 'Clément Padovani' => 'clement.padovani@gmail.com' }
   s.source           = { :git => 'https://github.com/ClementPadovani/CPSegmentedScrollView.git', :tag => s.version.to_s }
+
+  s.platform = :ios
+  
+  s.requires_arc = true
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CPSegmentedScrollView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CPSegmentedScrollView' => ['CPSegmentedScrollView/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'CPSegmentedScrollView/Classes/Public/*.h'
+  
+  s.private_header_files = 'CPSegmentedScrollView/Classes/Private/*.h'
+  
+  s.frameworks = 'UIKit', 'Foundation'
 end

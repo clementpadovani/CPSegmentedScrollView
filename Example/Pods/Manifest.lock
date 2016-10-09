@@ -1,5 +1,5 @@
 PODS:
-  - CPSegmentedScrollView (1.0.0)
+  - CPSegmentedScrollView (1.0.1)
   - OCHamcrest (6.0.0)
   - OCMockito (4.0.1):
     - OCHamcrest (~> 6.0)
@@ -13,10 +13,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CPSegmentedScrollView: ad59faf95ee1e33ad2f172d418e6f6c4b92247d2
+  CPSegmentedScrollView: 2ad3c79ed0140c5a43576b98c8f5b39deb67aac9
   OCHamcrest: fc8ab38149b97df8db8029a3f2157c951bf9081d
   OCMockito: 62ddc6afff6a883f2864d51224b1dfdc0e9a7df7
 
 PODFILE CHECKSUM: ac8b195460653b1679798d8458d250207ae302e1
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
