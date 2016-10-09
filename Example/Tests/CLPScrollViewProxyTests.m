@@ -8,6 +8,7 @@
 
 @import XCTest;
 @import CPSegmentedScrollView;
+#import <CPSegmentedScrollView/CLPScrollViewProxy.h>
 
 @interface CLPScrollViewProxyTests : XCTestCase
 
