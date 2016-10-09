@@ -8,6 +8,10 @@ before_install:
   - gem cleanup
   - pod repo update --silent
   - pod install --project-directory=Example
+branches:
+  only: 
+    - master
+    - develop
 script:
   - set -o pipefail && xcodebuild test -workspace Example/CPSegmentedScrollView.xcworkspace -scheme CPSegmentedScrollView-Example -sdk iphonesimulator -destination "name=iPhone SE" | xcpretty
   - pod lib lint
