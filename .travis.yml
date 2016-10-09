@@ -11,7 +11,7 @@ before_install:
   - gem install cocoapods --pre # Since Travis is not always on latest version
   - gem update xcpretty
   - gem cleanup
-  - pod install --project-directory=Example
+  - pod install --project-directory=Example --repo-update
 branches:
   only: 
     - master
