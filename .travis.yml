@@ -4,6 +4,8 @@ cache: cocoapods
 podfile: Example/Podfile
 before_install:
   - gem install cocoapods --pre # Since Travis is not always on latest version
+  - gem update xcpretty
+  - gem cleanup
   - pod repo update --silent
   - pod install --project-directory=Example
 script:
