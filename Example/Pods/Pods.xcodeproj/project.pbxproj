@@ -12,7 +12,7 @@
 		01B854B2634816440386E3B40D88C29A /* HCIsEqualToNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A553C2A978A410D8869FF23BBE3C650 /* HCIsEqualToNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0289F11EBD7EDC5EF543C9A635D74122 /* MKTTestLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE51827704BAD187841CC57487E6E43A /* MKTTestLocation.m */; };
 		04F64617795B6A2148158C14D31CFB6C /* HCTestFailureReporterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0BA39DB7ED8B7C0E0DA57AFE7B52855 /* HCTestFailureReporterChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0513AD8062635CF6AE1AFEA1B113A72B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */; };
+		0513AD8062635CF6AE1AFEA1B113A72B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */; };
 		0560D158F5A5848BCE174203B69BD6EF /* HCIsDictionaryContainingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 032490A8159B1C6576A3658D40AB04DD /* HCIsDictionaryContainingKey.m */; };
 		0593452123FDAF89612F9D9114F72BD7 /* MKTProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = E38B716E35FE4A64D1137D32FED38450 /* MKTProtocolMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05F150CF25022CA16CF03D3890D650A8 /* HCIsTrueFalse.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E019D1A4FC00673F6E724269F36FB5 /* HCIsTrueFalse.m */; };
@@ -33,6 +33,7 @@
 		117A18B13B80848497AA37C2D6FE0015 /* MKTUnsignedLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 77353572483725FCB58726E360861307 /* MKTUnsignedLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		118FA4399EA651C0D49984BB282CC804 /* HCClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5994D029E7F241CE820D26664B54A3E3 /* HCClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11DDE1765C0EAD4E46947A4F00A99EB5 /* HCIsCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = D15E8DB0DCFC63D777DFF7222A4C607F /* HCIsCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B12452A97406F2CED50223D626C3C0 /* CLPScrollViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BDDA53E62D18C0885813D184DD1B80 /* CLPScrollViewProxy.m */; };
 		1348B7F1E9A756D95088A5D43FA1F635 /* MKTObjectArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA9F121E04AAA0E692DE37369D6730BC /* MKTObjectArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		134C892FDF94D9B4BB7CA666B6633ACF /* HCSenTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 332A386C359E1B08EE917F830CDF6B63 /* HCSenTestFailureReporter.m */; };
 		142E5287A0B8A9E39A8739AEA3127342 /* MKTAtLeastTimes.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C0134B197A5F065AA6BBAF4E2593BA /* MKTAtLeastTimes.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -56,7 +57,6 @@
 		203AC8695779F4BD0CCC468238F52BCF /* HCUnsignedCharReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C8A75C8B263F65F991C078E577F35D /* HCUnsignedCharReturnGetter.m */; };
 		223B06DE4852FEC3C6C3E975DE1C4642 /* HCAssertThat.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EDD2A135EB82DACF5AA9FE3E1FB290 /* HCAssertThat.m */; };
 		22BF90FB8843FDE4FB90C7AF4BA2C580 /* MKTMatchingInvocationsFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D59CEB259CE492DF740F7F6AB11F90C /* MKTMatchingInvocationsFinder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		23A4D6CED9F7000E53173498E6658614 /* CLPScrollViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F199AA87A1E13AC548CBEA496265AE /* CLPScrollViewProxy.m */; };
 		24402C7335FAAC8C7D66C141AC573475 /* OCHamcrest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D2EBAABD95556339F41705CA7CDECC /* OCHamcrest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2466AAF81FEE5EB2FD154E65669867C6 /* HCIsCollectionContaining.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A3E90D80B4B0A5D0C094829508CF2 /* HCIsCollectionContaining.m */; };
 		247CD17B3B1AA4600FEE9CE98B37F6C5 /* MKTBoolReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A04E135C140477B0FCEC18EA54E061A /* MKTBoolReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -78,8 +78,8 @@
 		3139CCEE5EA56DA242D0F9F5DB9AC497 /* HCThrowsException.m in Sources */ = {isa = PBXBuildFile; fileRef = FF07171FD9FF0368923CF5A3865CC5EB /* HCThrowsException.m */; };
 		33BC534F541CB05337F059313A4FFA19 /* HCIsSame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1A736CB4526EE9BF61B2FB03B0475E /* HCIsSame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33BE9350DDA96B16443D6F0B3B86391E /* MKTInvocationsChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8232A6AA1D59CDAA5CA00AAB107037 /* MKTInvocationsChecker.m */; };
-		33E9D7CD774F233BAB7C05A3029109BF /* CPSegmentedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95770C0CE1D3D8BBC765BC9BB288A816 /* CPSegmentedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34791ADA5E7181D3F83F75C9046A9ED6 /* HCBoolReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 205CBA31CA605E0AFE6EF47EF02DC898 /* HCBoolReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		361D6D4060754A200E3E85286309DDCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */; };
 		36B025C435944122DBBDC6DF47E80616 /* MKTVerificationData.m in Sources */ = {isa = PBXBuildFile; fileRef = D80CA7622685F9D2FDE557B92E7CC09A /* MKTVerificationData.m */; };
 		38EC5542FA68CA20088ED45B0A5E3D4F /* HCIntReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C4C8A83146DA8F77B4296DB9F20E75B /* HCIntReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		38F0C5CA21D45CAAAC412F26B156951F /* Pods-CPSegmentedScrollView_ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA645C9A0485DFF0237178F47F15403 /* Pods-CPSegmentedScrollView_ExampleUITests-dummy.m */; };
@@ -93,7 +93,6 @@
 		412981DBE3C8B0D9ABB6C35AF281C77B /* MKTDoubleReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 61F090B209C25AF25B35660E1E2D2E77 /* MKTDoubleReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		42AD1D07CBEFD5B3B0851620A378E435 /* HCCharReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCABC10938B1DC9E7A4EFE6D5B6B5BD /* HCCharReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		43EB8C2C3A6EC6B6482CE8B5254AC883 /* MKTParseCallStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 463831141807629B8CEEB338E002F82C /* MKTParseCallStack.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		444BA180C56124A4A3000AD45E6B2ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */; };
 		447314279EC84C8707D269432E028C3F /* HCIsNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EABA3462031445B8A12F49A5F68AB89 /* HCIsNil.m */; };
 		472D6FE671967B70A9C3F179C490307C /* OCHamcrest.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BEA1A63B106FCA1818B49FDCC483E9 /* OCHamcrest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47B77EE0D7368C617C98A9273D32B361 /* MKTObjectAndProtocolMock.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBFF580880C03E931A77E8A54F0C1B6 /* MKTObjectAndProtocolMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -101,6 +100,7 @@
 		49053463F49EA55DE3A460AD154E7D05 /* HCStringContains.m in Sources */ = {isa = PBXBuildFile; fileRef = 022DD93F01F48CC9141388BF24644AE7 /* HCStringContains.m */; };
 		4B0D26DE1B92480C02B7DECCCDF565A2 /* MKTUnsignedIntReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC78E97BBB5A96C3F96AE2233E048C3 /* MKTUnsignedIntReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4B309EF1335094F2A7246B5B417DC994 /* HCCharReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = D435D3A885E0D10B7C26151F530EBD5C /* HCCharReturnGetter.m */; };
+		4BFC8908F3B956400893ABD02EDE11D2 /* CPSegmentedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E5CDE50884D338618481AE0FAAA41 /* CPSegmentedScrollView-dummy.m */; };
 		4D1B437E9D4C73BBA640D79AC42FFFAB /* HCReturnValueGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F570DF2F0AA2B42A8C23FAABB4060B /* HCReturnValueGetter.m */; };
 		4DA371A90B7373E1D5BC750B28F73238 /* MKTArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 13227DC721374AC26B1A5A51ED76FC13 /* MKTArgumentGetter.m */; };
 		4ECE25C2D917B4864BFFA4F27CD88234 /* HCIsIn.h in Headers */ = {isa = PBXBuildFile; fileRef = D4605A35AAD5EBCBFD09564F157581E5 /* HCIsIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -112,6 +112,7 @@
 		51DEEFDEA521E54B14B842A468923875 /* HCRunloopRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE17A9B17B4916E7DBF2A6034341115 /* HCRunloopRunner.m */; };
 		526C8E919C16370ECD84D9E9A47CEABF /* HCTestFailureReporterChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B489C8FBE3818E808FB4FA8AF748D9D6 /* HCTestFailureReporterChain.m */; };
 		52A7829E0C7D4A540F03E25EDB1ECD51 /* MKTBaseMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 97855B42F29543084F037555FC570572 /* MKTBaseMockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C5535319298DC7CB9A44D3C810822B /* CLPScrollViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9783DDE34F8D85A0BDCE25C444CAA551 /* CLPScrollViewProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		541051811EE557A55DC2D32317DD3281 /* HCIsEmptyCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E278300770F32161D15F77EADFE4D17 /* HCIsEmptyCollection.m */; };
 		541A478A6527B7157343DF596C1A85ED /* MKTAtLeastNumberOfInvocationsChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8815FD52DD268F319455E89826BC38 /* MKTAtLeastNumberOfInvocationsChecker.m */; };
 		5491F8BE1D792103BDDCF5F5502785FB /* MKTLongLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = AC805CF2B9B685C96564C4D68CDCC415 /* MKTLongLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -120,21 +121,18 @@
 		568EBA1518DEC0E4695AC13A3EEC680D /* HCStringEndsWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 91856390D51AC9E90111151FE3D819E4 /* HCStringEndsWith.m */; };
 		59DD0AD620A6EF728BB7BCAD0FEB0C34 /* MKTShortArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A63DC13CAB1554A7466668EADC45AF /* MKTShortArgumentGetter.m */; };
 		59E2C32916FCBBC2FB0126CDCAF84B4F /* MKTUnsignedLongLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C7A2F5C8AF32EE01CD549053E66F5E /* MKTUnsignedLongLongArgumentGetter.m */; };
-		5A52219FC14A5C3CFAE95722FB797A17 /* CLPScrollViewSegmentedControlConsul.h in Headers */ = {isa = PBXBuildFile; fileRef = 23580B11CEF7790BA45E8E839A778C1F /* CLPScrollViewSegmentedControlConsul.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A590CE7A3AFE7AB0B12027F5D961CF7 /* MKTMockingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 403A1B867AE0BB310D3642E318DAA618 /* MKTMockingProgress.m */; };
 		5B4E605AC054AA6EDDE2A263ABD6B8EE /* MKTLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC766BDA2AB3522661E775618FE37A /* MKTLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5CB4095F46B8570C68C2FEFA5FC38911 /* MKTIntArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3B2716321658CE91CC5821B4688FB5 /* MKTIntArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5F109E5BBF66E71C794EEF3DC91E9760 /* HCUnsignedLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3889658487A9095BFD1348A853DDCF /* HCUnsignedLongReturnGetter.m */; };
 		5FA7741B50F6BC0779059A92C000E2FC /* MKTPointerArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 22ABCE43EE3EDAAB0682D12A8F81CCE3 /* MKTPointerArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		60662A89007CEF2154DF718CF8AFA005 /* MKTShortArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA0909077631040135A895177D52497 /* MKTShortArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		609B4B0512DE7CBA3D8C376C829A08D5 /* CPSegmentedScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E5CDE50884D338618481AE0FAAA41 /* CPSegmentedScrollView-dummy.m */; };
 		60F8AC4E06E0918AC349D2245C90B9D8 /* HCAllOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F95A4B872ABC405EB06760D5CAC7F0A /* HCAllOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60FFB8210DE53784BD601DF93A4BC235 /* HCBaseDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C89068328A34030BCBB19B344E5B838 /* HCBaseDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62627C3CAE8F7770643982ADF317D530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */; };
+		62627C3CAE8F7770643982ADF317D530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */; };
 		62C03BD732A652B017ACA3A569D337ED /* MKTStructArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3D0D155AA2297B1DD02221CF0D3F1B /* MKTStructArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		637241A2403A2CB47C4B1F1787E8B9CC /* MKTStubbedInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 291CFDB5D1531D9A1B9D681634DFEED2 /* MKTStubbedInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		639DCAB8FED05A1D159A31FCC0E24188 /* MKTArgumentGetterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = FCF802FBD75CD19092068FF15AA62297 /* MKTArgumentGetterChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6482766F5A65C130612E35F563230B3C /* CLPScrollViewSegmentedControlConsul.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA146D24BD32B854BA3C43F18E0F956 /* CLPScrollViewSegmentedControlConsul.m */; };
 		649AE63641E081BBAEB271269E425B99 /* MKTCharReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = EFCCFD4448F4D9A994E089B057395E8B /* MKTCharReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		65EF46D869A74FAFB8ECF4725B6298CF /* MKTShortReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B16ACEC274161AF6296E4E35ACAF791 /* MKTShortReturnSetter.m */; };
 		675D776DD9F5D0F966BF91C287D02D43 /* HCIsInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = B068F24A51FB9976976851CD9EF53B12 /* HCIsInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -151,6 +149,7 @@
 		6DBC3F7245FD03CBA64556701BB38184 /* MKTInvocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AA2010A0AF0B1B84563F97C75330761 /* MKTInvocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6DEEEC0A78BB11DF9898B24E8B778135 /* MKTReturnsValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE7CB592767997217D6BA771E4CA142 /* MKTReturnsValue.m */; };
 		6EA1F0468253950AF38FC58F6208CD56 /* Pods-CPSegmentedScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256CA9612375EECB9BD3D4DB94C16FE /* Pods-CPSegmentedScrollView_Example-dummy.m */; };
+		6F0B0DEE765B6D6C2CC6434430D21236 /* CLPScrollViewSegmentedControlConsul.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D358BBD4C5CCE7D5430349D94D0648 /* CLPScrollViewSegmentedControlConsul.m */; };
 		6F721844778098296A38139FEC9547F0 /* MKTUnsignedCharReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4429706E46A57C75C66C81B45597817 /* MKTUnsignedCharReturnSetter.m */; };
 		6FB6FBE9BCBDDD4F8F5941A99B6C1341 /* MKTSelectorArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 85940003503F19E39F2B1D655282FDE8 /* MKTSelectorArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6FCAC93FBA18427346E8350F955E7CB3 /* HCDoubleReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E3027820C7AC7B5F9BB4E3AAFBF439 /* HCDoubleReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -175,9 +174,9 @@
 		7F1EBF765079A910C417C1632474646A /* MKTLongArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B85B539D88C6EFB0C86BF123391BFB /* MKTLongArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7FD53C913BB1976F668F350E4C7A3931 /* MKTUnsignedShortReturnSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D6151D2EFD8DC3E1EE23D333CDBAEE /* MKTUnsignedShortReturnSetter.m */; };
 		80041B949905061EC35D048BA1DEF14D /* HCInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F35C52A4320D9EB6C44F0B3D7C3E401 /* HCInvocationMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		804049E6E645909AF2BE15B32A13DBBE /* CLPScrollViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D53776237461A017CAE58F9604A278D2 /* CLPScrollViewProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8118ED0134EE8A37729AEE420C22E2BF /* MKTReturnValueSetterChain.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE872356AF4BE7654D79DAF85E3CCF2 /* MKTReturnValueSetterChain.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		814DC726460F0D0AC370EA516FB10AFB /* HCShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FF260A641EC65090EA5B791B1D8EFB /* HCShortReturnGetter.m */; };
+		81871187E6F7328C037560ADB345B568 /* CPSegmentedScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95770C0CE1D3D8BBC765BC9BB288A816 /* CPSegmentedScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8198ECD13133EB663DFD0761CEAD4C2B /* HCIsEqualIgnoringCase.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E4E6A29B84B33120366095D00C10B3 /* HCIsEqualIgnoringCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81EADEC5044779EA7E7F1E0E6568D5BE /* HCIsCollectionContainingInRelativeOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8033C337BFC36ABE130821768F326F /* HCIsCollectionContainingInRelativeOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82F02D01AC9DD97917D5599538056D45 /* MKTStubbedInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4F61AB7B92450EB6777C705EF24E9 /* MKTStubbedInvocationMatcher.m */; };
@@ -214,8 +213,8 @@
 		9CA8348F8BD27D7C6087EAE9291C4ECA /* MKTBoolArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCC1260113CC1DD32FFB123E9748AFF /* MKTBoolArgumentGetter.m */; };
 		9CF5BA37A027D863C0F112AF378BCB17 /* MKTIntArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9662A12FC342FE8D4B955A162C7928 /* MKTIntArgumentGetter.m */; };
 		9D2DA13F4F0D5A1BBED73F9E5DD37226 /* HCSelfDescribing.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8203F83406A5556EA86E31C49E3C3C /* HCSelfDescribing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D4F060D4E15F9BF4E1B3B8689BF6F98 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64269757481829A5D5ED8DB6107A5147 /* OCHamcrest.framework */; };
-		9F36AB4672363472EB9B0347E795682C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */; };
+		9D4F060D4E15F9BF4E1B3B8689BF6F98 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C964F76F32E35C5E286E6789A176A0 /* OCHamcrest.framework */; };
+		9F36AB4672363472EB9B0347E795682C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */; };
 		9F6C44AE1C45F60B9F73226ADCFE1102 /* MKTUnsignedShortReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3638D24AF1A428445979116B79AF60 /* MKTUnsignedShortReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A04D5DF5F8ADEE04D7B75A3B791BA776 /* HCGenericTestFailureReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AFB0C56D71DAF1D95F92E491F04031 /* HCGenericTestFailureReporter.m */; };
 		A0FCC6312FFA5B5FB20EF30E3A6A10CC /* HCSubstringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E256EA94DAC41EC54A8D32F1C76A2E6 /* HCSubstringMatcher.m */; };
@@ -233,8 +232,9 @@
 		A8EA4B20F3A7C55FD0D0C9E700DC1893 /* HCFloatReturnGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBDEEF79A30ACA55BD7848006C20D99 /* HCFloatReturnGetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		AAE8F3393EDEAC10090E22CA8CF7AA03 /* MKTCharArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AD57FE8CC3B23362595720F89CD365 /* MKTCharArgumentGetter.m */; };
 		AB7B74438DAD0C5D2DB1F274B3BD3022 /* MKTOngoingStubbing.h in Headers */ = {isa = PBXBuildFile; fileRef = D298DDC6968C9E232E4EB46A20A59F4B /* MKTOngoingStubbing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACE1FFA6AA4D85F2F5CAB033AA27F117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */; };
+		ACE1FFA6AA4D85F2F5CAB033AA27F117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */; };
 		ADECD0B92FF13EFE9662C6EB15A81FE8 /* MKTClassArgumentGetter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FC0C69A22B8AB4B0E246D52DFA7C47 /* MKTClassArgumentGetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE6805655AF9919367881B8B5D8A5C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A8CDDC774E8054A8D341FB81C687270 /* UIKit.framework */; };
 		AF689320F6EA9E6B6C60609246567AD2 /* OCMockito.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480FE2F56EE408EF9B488E5F1426A56 /* OCMockito.m */; };
 		B02D2527FCDB4957A1E4D58D9BA3793F /* HCIsCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = ED705A5EC0D841E1813DD7350C8B8E43 /* HCIsCloseTo.m */; };
 		B07D9025CC07F3FA185AFC9505588F77 /* MKTClassObjectMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8923B19513D73FD00B0037C3A4239A /* MKTClassObjectMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -274,7 +274,7 @@
 		C7EB495B090485433722AA1A47387F39 /* HCUnsignedIntReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = E07222BA525D5CCC2D899DBBB53B4C95 /* HCUnsignedIntReturnGetter.m */; };
 		C7FB16CF8E77C0C0AADC9DB9512B28BF /* MKTMockitoCore.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A2331E2FF71E8E8528C61E43CF0C96 /* MKTMockitoCore.m */; };
 		C80F3380653921BBEECB4D033562574F /* MKTReturnsValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 03334C6DD59149CEE9C3C2BAEF33D40B /* MKTReturnsValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C8CD08F8A48CF013DFA02C85CAC53C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */; };
+		C8CD08F8A48CF013DFA02C85CAC53C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */; };
 		CA36BDAAE2BDAC453B1C739952BD2722 /* MKTLongLongReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0619EAB87B348800D9527A04A5B6A7 /* MKTLongLongReturnSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CA87304CC3CDCB77D7D5F1817627C1C2 /* Pods-CPSegmentedScrollView_ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 806E2C59298E76C15AB0D7A4E82D92F3 /* Pods-CPSegmentedScrollView_ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB506726CE0F3137C27979C6250E935C /* HCIntReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79455A4F2379F74D5B7C4598A843A1C6 /* HCIntReturnGetter.m */; };
@@ -332,6 +332,7 @@
 		F6F9FBF7B8CEC2F8F5B271B2175F57CB /* MKTVerificationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6405102B0FEF14D020408750D27D27C3 /* MKTVerificationData.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F8F68BA8D1CE12B3951B25BB938E154E /* MKTInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D27A3694E37295F2CF5EEF0A6C184DEA /* MKTInvocation.m */; };
 		F93772FC40818F36D8F07DC5CC731BAB /* MKTSelectorArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90945F928FFFE877E2CD2FD3CD5735EF /* MKTSelectorArgumentGetter.m */; };
+		FDDE669B4858EBDD999C7A09FBEAD81B /* CLPScrollViewSegmentedControlConsul.h in Headers */ = {isa = PBXBuildFile; fileRef = 22183F282A9BE3067C2CF1D672953756 /* CLPScrollViewSegmentedControlConsul.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEE1749212938C79B5C4D056192E9829 /* HCInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 098E1A4565BA0A2327FA8C95A583D962 /* HCInvocationMatcher.m */; };
 		FF8A4AD82159A921A2774ED1B31AC92B /* HCStringStartsWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 3125BEB77396051F857D27E52DC1747D /* HCStringStartsWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8C0DD070415C7339EA601F2B7271B6 /* MKTMissingInvocationChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = E43ED1B81125CB9BC5B5A9F81371DFF0 /* MKTMissingInvocationChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -349,7 +350,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DEAF4DF061DD60BFFE3FD7FBCC694890;
+			remoteGlobalIDString = C00384C09300C4B3306720089D71D96F;
 			remoteInfo = CPSegmentedScrollView;
 		};
 		F7F17732ED4E433DA88CC26EB331C70B /* PBXContainerItemProxy */ = {
@@ -417,15 +418,16 @@
 		205CBA31CA605E0AFE6EF47EF02DC898 /* HCBoolReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCBoolReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.h; sourceTree = "<group>"; };
 		20CDD6E37B4EA07E919B6D67CEFEE79C /* HCIsEqual.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqual.m; path = Source/Library/Object/HCIsEqual.m; sourceTree = "<group>"; };
 		2151E1E658426420A59016902DEE0939 /* Pods-CPSegmentedScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPSegmentedScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22183F282A9BE3067C2CF1D672953756 /* CLPScrollViewSegmentedControlConsul.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLPScrollViewSegmentedControlConsul.h; sourceTree = "<group>"; };
 		22ABCE43EE3EDAAB0682D12A8F81CCE3 /* MKTPointerArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPointerArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTPointerArgumentGetter.h; sourceTree = "<group>"; };
 		230EED4A5374EC4B7ADB1D5D81663819 /* NSInvocation+OCMockito.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMockito.m"; path = "Source/OCMockito/Invocation/NSInvocation+OCMockito.m"; sourceTree = "<group>"; };
 		235302A77C7CEED562AADC450CE0B88B /* HCShortReturnGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCShortReturnGetter.h; path = Source/Core/Helpers/ReturnValueGetters/HCShortReturnGetter.h; sourceTree = "<group>"; };
-		23580B11CEF7790BA45E8E839A778C1F /* CLPScrollViewSegmentedControlConsul.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLPScrollViewSegmentedControlConsul.h; sourceTree = "<group>"; };
 		2550F4E8BE58E943A14FBE0E50AB2A37 /* HCIsCollectionContainingInAnyOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsCollectionContainingInAnyOrder.m; path = Source/Library/Collection/HCIsCollectionContainingInAnyOrder.m; sourceTree = "<group>"; };
 		25E0208166E13457B1C9C5FD5E01B329 /* MKTBaseMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTBaseMockObject.m; path = Source/OCMockito/Mocking/MKTBaseMockObject.m; sourceTree = "<group>"; };
 		27EDD2A135EB82DACF5AA9FE3E1FB290 /* HCAssertThat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAssertThat.m; path = Source/Core/HCAssertThat.m; sourceTree = "<group>"; };
 		28A0BFC10A769B741AAB929D46A64478 /* HCRequireNonNilObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCRequireNonNilObject.h; path = Source/Core/Helpers/HCRequireNonNilObject.h; sourceTree = "<group>"; };
 		28B5CFD9CB1990BB4774657E1FBFC263 /* Pods-CPSegmentedScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CPSegmentedScrollView_Example-resources.sh"; sourceTree = "<group>"; };
+		28C964F76F32E35C5E286E6789A176A0 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		291CFDB5D1531D9A1B9D681634DFEED2 /* MKTStubbedInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTStubbedInvocationMatcher.h; path = Source/OCMockito/Stubbing/MKTStubbedInvocationMatcher.h; sourceTree = "<group>"; };
 		29F48CDE7BE8444A43143A689D77C163 /* MKTUnsignedLongLongReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongLongReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongLongReturnSetter.h; sourceTree = "<group>"; };
 		2AA85B70EEC1732FA7A8BBFBF2D55088 /* HCAllOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCAllOf.m; path = Source/Library/Logical/HCAllOf.m; sourceTree = "<group>"; };
@@ -443,12 +445,12 @@
 		2EABA3462031445B8A12F49A5F68AB89 /* HCIsNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsNil.m; path = Source/Library/Object/HCIsNil.m; sourceTree = "<group>"; };
 		2F0554342CA6DC6FEE37E76FDB0E00AA /* Pods-CPSegmentedScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPSegmentedScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F16C23CA35CA7AB8EBF5B004E8A2883 /* MKTDoubleArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTDoubleArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTDoubleArgumentGetter.m; sourceTree = "<group>"; };
+		30D358BBD4C5CCE7D5430349D94D0648 /* CLPScrollViewSegmentedControlConsul.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViewSegmentedControlConsul.m; sourceTree = "<group>"; };
 		3125BEB77396051F857D27E52DC1747D /* HCStringStartsWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCStringStartsWith.h; path = Source/Library/Text/HCStringStartsWith.h; sourceTree = "<group>"; };
 		312675A84577B21390B69EA8ADE7E3C9 /* HCIsInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsInstanceOf.m; path = Source/Library/Object/HCIsInstanceOf.m; sourceTree = "<group>"; };
 		3173101BBDC3D4CF7CDF0BEC4F3434B4 /* MKTDynamicProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDynamicProperties.h; path = Source/OCMockito/Mocking/MKTDynamicProperties.h; sourceTree = "<group>"; };
 		31DC1C3B0CDFE63FEF08DF174F9B6391 /* MKTExecutesBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTExecutesBlock.m; path = Source/OCMockito/Stubbing/MKTExecutesBlock.m; sourceTree = "<group>"; };
 		332A386C359E1B08EE917F830CDF6B63 /* HCSenTestFailureReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCSenTestFailureReporter.m; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.m; sourceTree = "<group>"; };
-		33F199AA87A1E13AC548CBEA496265AE /* CLPScrollViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViewProxy.m; sourceTree = "<group>"; };
 		3480FE2F56EE408EF9B488E5F1426A56 /* OCMockito.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockito.m; path = Source/OCMockito/Core/OCMockito.m; sourceTree = "<group>"; };
 		3523CF8324378EA07EBBD1305A0A5BA8 /* MKTFloatReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTFloatReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTFloatReturnSetter.h; sourceTree = "<group>"; };
 		366EBA449446C6624E1C6A81A57B2A64 /* MKTTestLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTTestLocation.h; path = Source/OCMockito/Core/MKTTestLocation.h; sourceTree = "<group>"; };
@@ -492,6 +494,7 @@
 		57C8A75C8B263F65F991C078E577F35D /* HCUnsignedCharReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCUnsignedCharReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCUnsignedCharReturnGetter.m; sourceTree = "<group>"; };
 		592F10B474F31B6DA70C4C59C6502BCC /* MKTCallStackElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTCallStackElement.h; path = Source/OCMockito/Invocation/MKTCallStackElement.h; sourceTree = "<group>"; };
 		5994D029E7F241CE820D26664B54A3E3 /* HCClassMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCClassMatcher.h; path = Source/Library/Object/HCClassMatcher.h; sourceTree = "<group>"; };
+		5A8CDDC774E8054A8D341FB81C687270 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5ABD0C3E1B0391F4CE055053C877B283 /* MKTClassReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTClassReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTClassReturnSetter.m; sourceTree = "<group>"; };
 		5AC33B4747E2F58BABA851F7832866CD /* Pods-CPSegmentedScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPSegmentedScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
 		5B6169F2DCAF9DDB04CD515CC5007624 /* MKTUnsignedIntArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedIntArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedIntArgumentGetter.m; sourceTree = "<group>"; };
@@ -507,7 +510,6 @@
 		61F090B209C25AF25B35660E1E2D2E77 /* MKTDoubleReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTDoubleReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTDoubleReturnSetter.h; sourceTree = "<group>"; };
 		62F6728E0B808E263D525A59E54FB138 /* HCConformsToProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCConformsToProtocol.h; path = Source/Library/Object/HCConformsToProtocol.h; sourceTree = "<group>"; };
 		6405102B0FEF14D020408750D27D27C3 /* MKTVerificationData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTVerificationData.h; path = Source/OCMockito/Verifying/MKTVerificationData.h; sourceTree = "<group>"; };
-		64269757481829A5D5ED8DB6107A5147 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6513CC551480E89CB1ECC16CC308C140 /* HCCollect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCCollect.m; path = Source/Core/Helpers/HCCollect.m; sourceTree = "<group>"; };
 		65A025D7BE595BA4967C9C1EB2C355BE /* MKTStructReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTStructReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTStructReturnSetter.m; sourceTree = "<group>"; };
 		65B8C18B04DDCEFE83A382C94D4E0364 /* HCLongLongReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCLongLongReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCLongLongReturnGetter.m; sourceTree = "<group>"; };
@@ -583,6 +585,7 @@
 		9650AB5B722DC39579645289510115B7 /* MKT_TPDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKT_TPDWeakProxy.m; path = "Source/ThirdParty/TPDWeakProxy-1.1.0/TPDWeakProxy/MKT_TPDWeakProxy.m"; sourceTree = "<group>"; };
 		96692B875699894114D72E30E0DDC25A /* MKTThrowsException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTThrowsException.h; path = Source/OCMockito/Stubbing/MKTThrowsException.h; sourceTree = "<group>"; };
 		9693F7B505994ABC5650F440A6AED605 /* HCBoolReturnGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBoolReturnGetter.m; path = Source/Core/Helpers/ReturnValueGetters/HCBoolReturnGetter.m; sourceTree = "<group>"; };
+		9783DDE34F8D85A0BDCE25C444CAA551 /* CLPScrollViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLPScrollViewProxy.h; sourceTree = "<group>"; };
 		97855B42F29543084F037555FC570572 /* MKTBaseMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTBaseMockObject.h; path = Source/OCMockito/Mocking/MKTBaseMockObject.h; sourceTree = "<group>"; };
 		9796A46608E8E9A754FFE1F64EDAF6B9 /* HCMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCMatcher.h; path = Source/Core/HCMatcher.h; sourceTree = "<group>"; };
 		97B1300625052B4F05E1062AFBC193AD /* HCBaseMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCBaseMatcher.m; path = Source/Core/HCBaseMatcher.m; sourceTree = "<group>"; };
@@ -594,7 +597,6 @@
 		9CE7CB592767997217D6BA771E4CA142 /* MKTReturnsValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTReturnsValue.m; path = Source/OCMockito/Stubbing/MKTReturnsValue.m; sourceTree = "<group>"; };
 		9D8EFFD4707097D8AE2A9B1608A4B5C5 /* MKTUnsignedLongArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedLongArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedLongArgumentGetter.h; sourceTree = "<group>"; };
 		9D922C3E7E6501FA0C5879306E6D2FBF /* HCIsTypeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsTypeOf.m; path = Source/Library/Object/HCIsTypeOf.m; sourceTree = "<group>"; };
-		9DA146D24BD32B854BA3C43F18E0F956 /* CLPScrollViewSegmentedControlConsul.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViewSegmentedControlConsul.m; sourceTree = "<group>"; };
 		9DC0FAAC736470F6BFB1AB820EB60002 /* HCDiagnosingMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCDiagnosingMatcher.h; path = Source/Core/HCDiagnosingMatcher.h; sourceTree = "<group>"; };
 		9F26A1E401438C67673F0B2209265ADE /* HCIsNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsNil.h; path = Source/Library/Object/HCIsNil.h; sourceTree = "<group>"; };
 		A05038B0AFAA9D054B28C6322A407681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -618,6 +620,7 @@
 		B068F24A51FB9976976851CD9EF53B12 /* HCIsInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsInstanceOf.h; path = Source/Library/Object/HCIsInstanceOf.h; sourceTree = "<group>"; };
 		B17EF8A23F082BF458646254BDFBEC11 /* HCClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCClassMatcher.m; path = Source/Library/Object/HCClassMatcher.m; sourceTree = "<group>"; };
 		B39F4163A7D63B50ADB726225D2E2090 /* HCArgumentCaptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCArgumentCaptor.m; path = Source/Library/Object/HCArgumentCaptor.m; sourceTree = "<group>"; };
+		B3BDDA53E62D18C0885813D184DD1B80 /* CLPScrollViewProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CLPScrollViewProxy.m; sourceTree = "<group>"; };
 		B3D1065CE660E3C2FA6FAB90AB7C6B42 /* MKTExactTimes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTExactTimes.h; path = Source/OCMockito/Verifying/MKTExactTimes.h; sourceTree = "<group>"; };
 		B489C8FBE3818E808FB4FA8AF748D9D6 /* HCTestFailureReporterChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCTestFailureReporterChain.m; path = Source/Core/Helpers/TestFailureReporters/HCTestFailureReporterChain.m; sourceTree = "<group>"; };
 		B4E2219CB9C2AEB686F2DD7124F6CDFD /* MKTUnsignedCharReturnSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedCharReturnSetter.h; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.h; sourceTree = "<group>"; };
@@ -636,6 +639,7 @@
 		BE6816715C6AB9856601256FC80FB113 /* MKTPrinter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTPrinter.h; path = Source/OCMockito/Invocation/MKTPrinter.h; sourceTree = "<group>"; };
 		BF098E0B4C3DDEC65DE13D5ECAF3AE86 /* MKTMockitoCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTMockitoCore.h; path = Source/OCMockito/Core/MKTMockitoCore.h; sourceTree = "<group>"; };
 		C09950D75E5A7FC080D7F29CDAD178EF /* MKTUnsignedLongReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedLongReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedLongReturnSetter.m; sourceTree = "<group>"; };
+		C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C0E4E6A29B84B33120366095D00C10B3 /* HCIsEqualIgnoringCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsEqualIgnoringCase.h; path = Source/Library/Text/HCIsEqualIgnoringCase.h; sourceTree = "<group>"; };
 		C12048552550850B12ED4877EFE0775E /* HCIsEqualIgnoringCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HCIsEqualIgnoringCase.m; path = Source/Library/Text/HCIsEqualIgnoringCase.m; sourceTree = "<group>"; };
 		C2534220A5D47CDA450180E0E89325CD /* MKTUnsignedShortArgumentGetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTUnsignedShortArgumentGetter.h; path = Source/OCMockito/Helpers/ArgumentGetters/MKTUnsignedShortArgumentGetter.h; sourceTree = "<group>"; };
@@ -669,7 +673,6 @@
 		D4429706E46A57C75C66C81B45597817 /* MKTUnsignedCharReturnSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTUnsignedCharReturnSetter.m; path = Source/OCMockito/Helpers/ReturnValueSetters/MKTUnsignedCharReturnSetter.m; sourceTree = "<group>"; };
 		D4605A35AAD5EBCBFD09564F157581E5 /* HCIsIn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCIsIn.h; path = Source/Library/Collection/HCIsIn.h; sourceTree = "<group>"; };
 		D4C8E50750D725617270E5AF2B5A50D7 /* HCReturnTypeHandlerChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCReturnTypeHandlerChain.h; path = Source/Core/Helpers/ReturnValueGetters/HCReturnTypeHandlerChain.h; sourceTree = "<group>"; };
-		D53776237461A017CAE58F9604A278D2 /* CLPScrollViewProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CLPScrollViewProxy.h; sourceTree = "<group>"; };
 		D5AD57FE8CC3B23362595720F89CD365 /* MKTCharArgumentGetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTCharArgumentGetter.m; path = Source/OCMockito/Helpers/ArgumentGetters/MKTCharArgumentGetter.m; sourceTree = "<group>"; };
 		D5D7DB1B0F86E4960033314E814189B9 /* HCOrderingComparison.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCOrderingComparison.h; path = Source/Library/Number/HCOrderingComparison.h; sourceTree = "<group>"; };
 		D5DC815D3B55B174682B9A36152C8FCA /* MKTAtMostNumberOfInvocationsChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKTAtMostNumberOfInvocationsChecker.h; path = Source/OCMockito/Verifying/MKTAtMostNumberOfInvocationsChecker.h; sourceTree = "<group>"; };
@@ -683,7 +686,6 @@
 		DB588056F0A73DC884FAA8E3A1F2AA53 /* Pods-CPSegmentedScrollView_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPSegmentedScrollView_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB8203F83406A5556EA86E31C49E3C3C /* HCSelfDescribing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSelfDescribing.h; path = Source/Core/HCSelfDescribing.h; sourceTree = "<group>"; };
 		DBB10F23CC9B6D50132340717056BDA1 /* OCMockito.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMockito.xcconfig; sourceTree = "<group>"; };
-		DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DE14C1FE9919297AF3EED28479C016AD /* Pods-CPSegmentedScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPSegmentedScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DEC05C4EA91E27B50BF1D54768080476 /* MKTPrinter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKTPrinter.m; path = Source/OCMockito/Invocation/MKTPrinter.m; sourceTree = "<group>"; };
 		DF8F2A1B0322B676B05D4A84F79EEDBD /* HCSenTestFailureReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCSenTestFailureReporter.h; path = Source/Core/Helpers/TestFailureReporters/HCSenTestFailureReporter.h; sourceTree = "<group>"; };
@@ -746,19 +748,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5942780ABDBAD7D0C6EB8EE67FE5528F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361D6D4060754A200E3E85286309DDCC /* Foundation.framework in Frameworks */,
+				AE6805655AF9919367881B8B5D8A5C3A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E6FD371812BF5810690A03D1E93671E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62627C3CAE8F7770643982ADF317D530 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B5DBC6E79484CBF9D2101FE71FDADA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				444BA180C56124A4A3000AD45E6B2ED0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,12 +807,13 @@
 			path = "../Target Support Files/OCHamcrest";
 			sourceTree = "<group>";
 		};
-		334013056C86830B4BA9A70CE063F3DD /* iOS */ = {
+		2C680C8C9105456BEDD413CFBD21A0B2 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				DDEDEBA8B19065542BFDB4BD1279A270 /* Foundation.framework */,
+				9783DDE34F8D85A0BDCE25C444CAA551 /* CLPScrollViewProxy.h */,
+				B3BDDA53E62D18C0885813D184DD1B80 /* CLPScrollViewProxy.m */,
 			);
-			name = iOS;
+			path = Private;
 			sourceTree = "<group>";
 		};
 		3D214A52D1EB5E7F92A8445A23F04170 /* Pods */ = {
@@ -821,13 +825,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		626153A90DF9F99F5A5FDB7C537F2BE1 /* Frameworks */ = {
+		45AEC5404CD3B3906946C8519E9ED527 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				64269757481829A5D5ED8DB6107A5147 /* OCHamcrest.framework */,
-				334013056C86830B4BA9A70CE063F3DD /* iOS */,
+				2C680C8C9105456BEDD413CFBD21A0B2 /* Private */,
+				8D3E63E2E0CEE7871B66E796B6D5DBCF /* Public */,
 			);
-			name = Frameworks;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		63915C6677329E36C94F78CAF5B9B13B /* OCHamcrest */ = {
@@ -1187,15 +1191,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		7C2F8E3C9D1C3FCDBE47B58E272A3295 /* Classes */ = {
+		78204EE4ED057197AD7BAFA1EC2DA203 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D53776237461A017CAE58F9604A278D2 /* CLPScrollViewProxy.h */,
-				33F199AA87A1E13AC548CBEA496265AE /* CLPScrollViewProxy.m */,
-				23580B11CEF7790BA45E8E839A778C1F /* CLPScrollViewSegmentedControlConsul.h */,
-				9DA146D24BD32B854BA3C43F18E0F956 /* CLPScrollViewSegmentedControlConsul.m */,
+				28C964F76F32E35C5E286E6789A176A0 /* OCHamcrest.framework */,
+				FF79C69A892DC7181D1BE443A9D71D03 /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -1203,17 +1205,26 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				73AFEC401CB5731AED5145EAD9BFE619 /* Development Pods */,
-				626153A90DF9F99F5A5FDB7C537F2BE1 /* Frameworks */,
+				78204EE4ED057197AD7BAFA1EC2DA203 /* Frameworks */,
 				3D214A52D1EB5E7F92A8445A23F04170 /* Pods */,
 				EE98267554E1E66936B3A17C244C6579 /* Products */,
 				DC651129FD38217EAAC7250AD2D08CC0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+		8D3E63E2E0CEE7871B66E796B6D5DBCF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				22183F282A9BE3067C2CF1D672953756 /* CLPScrollViewSegmentedControlConsul.h */,
+				30D358BBD4C5CCE7D5430349D94D0648 /* CLPScrollViewSegmentedControlConsul.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 		9AF136AE48E69E2F20853301007533A5 /* CPSegmentedScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				C87134C5D8E784CA63278B262DE30B64 /* CPSegmentedScrollView */,
+				B4328F3548C9899B724903B28239D28E /* CPSegmentedScrollView */,
 				6B35CA8CC7DB812D0E7C58EBED202544 /* Support Files */,
 			);
 			name = CPSegmentedScrollView;
@@ -1274,10 +1285,10 @@
 			path = "Target Support Files/Pods-CPSegmentedScrollView_Tests";
 			sourceTree = "<group>";
 		};
-		C87134C5D8E784CA63278B262DE30B64 /* CPSegmentedScrollView */ = {
+		B4328F3548C9899B724903B28239D28E /* CPSegmentedScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				7C2F8E3C9D1C3FCDBE47B58E272A3295 /* Classes */,
+				45AEC5404CD3B3906946C8519E9ED527 /* Classes */,
 			);
 			path = CPSegmentedScrollView;
 			sourceTree = "<group>";
@@ -1305,19 +1316,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FF79C69A892DC7181D1BE443A9D71D03 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C0A6F594463A12F72AA4D2620CBD4523 /* Foundation.framework */,
+				5A8CDDC774E8054A8D341FB81C687270 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0662A43C3B1B56392AD77BBF6BFE2E1D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				804049E6E645909AF2BE15B32A13DBBE /* CLPScrollViewProxy.h in Headers */,
-				5A52219FC14A5C3CFAE95722FB797A17 /* CLPScrollViewSegmentedControlConsul.h in Headers */,
-				33E9D7CD774F233BAB7C05A3029109BF /* CPSegmentedScrollView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1892FCEA4AAF9C113E1218DAB8168FD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1402,6 +1412,16 @@
 				8FB5D3D5E5EDBD1A5A7544587A262200 /* NSInvocation+OCHamcrest.h in Headers */,
 				24402C7335FAAC8C7D66C141AC573475 /* OCHamcrest-umbrella.h in Headers */,
 				472D6FE671967B70A9C3F179C490307C /* OCHamcrest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35B23E302A08B055E62CA8BE0F210251 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C5535319298DC7CB9A44D3C810822B /* CLPScrollViewProxy.h in Headers */,
+				FDDE669B4858EBDD999C7A09FBEAD81B /* CLPScrollViewSegmentedControlConsul.h in Headers */,
+				81871187E6F7328C037560ADB345B568 /* CPSegmentedScrollView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1571,6 +1591,23 @@
 			productReference = 77166A7971B0D4BC8918331CE75BEAA9 /* Pods_CPSegmentedScrollView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C00384C09300C4B3306720089D71D96F /* CPSegmentedScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C047C09D3D78904F8621F791401F2E68 /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView" */;
+			buildPhases = (
+				E5E693E67712FCB9C2E826FC652FE314 /* Sources */,
+				5942780ABDBAD7D0C6EB8EE67FE5528F /* Frameworks */,
+				35B23E302A08B055E62CA8BE0F210251 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPSegmentedScrollView;
+			productName = CPSegmentedScrollView;
+			productReference = EE24BD76520D09F7AB51CE725229EB2E /* CPSegmentedScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		CBEB14A84E50D58D9FEA491522D03FF8 /* Pods-CPSegmentedScrollView_ExampleUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D9FD2599EA1D47483643648D33B18DA /* Build configuration list for PBXNativeTarget "Pods-CPSegmentedScrollView_ExampleUITests" */;
@@ -1586,23 +1623,6 @@
 			name = "Pods-CPSegmentedScrollView_ExampleUITests";
 			productName = "Pods-CPSegmentedScrollView_ExampleUITests";
 			productReference = 2CDBEEF82EE9D2C40A751A25365EC662 /* Pods_CPSegmentedScrollView_ExampleUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DEAF4DF061DD60BFFE3FD7FBCC694890 /* CPSegmentedScrollView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D1131541D696B479EF4F951764BF826 /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView" */;
-			buildPhases = (
-				7F0DAEACDE7BDAD4481C9997E6D6C7F4 /* Sources */,
-				6B5DBC6E79484CBF9D2101FE71FDADA3 /* Frameworks */,
-				0662A43C3B1B56392AD77BBF6BFE2E1D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CPSegmentedScrollView;
-			productName = CPSegmentedScrollView;
-			productReference = EE24BD76520D09F7AB51CE725229EB2E /* CPSegmentedScrollView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ED2215199D16CAB8B76F07D32EC9F766 /* OCMockito */ = {
@@ -1644,7 +1664,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEAF4DF061DD60BFFE3FD7FBCC694890 /* CPSegmentedScrollView */,
+				C00384C09300C4B3306720089D71D96F /* CPSegmentedScrollView */,
 				348D338113177C6F08447C30D4B105AB /* OCHamcrest */,
 				ED2215199D16CAB8B76F07D32EC9F766 /* OCMockito */,
 				36E0789F3C85EBA1D03531D8915E7C66 /* Pods-CPSegmentedScrollView_Example */,
@@ -1735,16 +1755,6 @@
 				3CA442A1F1F1D8F13BF6F00E7D7622EE /* HCXCTestFailureReporter.m in Sources */,
 				BEB020EC82AF6AD51890EAFED294B3A3 /* NSInvocation+OCHamcrest.m in Sources */,
 				85EEFF174816C1383217B879BD824FA9 /* OCHamcrest-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F0DAEACDE7BDAD4481C9997E6D6C7F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23A4D6CED9F7000E53173498E6658614 /* CLPScrollViewProxy.m in Sources */,
-				6482766F5A65C130612E35F563230B3C /* CLPScrollViewSegmentedControlConsul.m in Sources */,
-				609B4B0512DE7CBA3D8C376C829A08D5 /* CPSegmentedScrollView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1854,6 +1864,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5E693E67712FCB9C2E826FC652FE314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B12452A97406F2CED50223D626C3C0 /* CLPScrollViewProxy.m in Sources */,
+				6F0B0DEE765B6D6C2CC6434430D21236 /* CLPScrollViewSegmentedControlConsul.m in Sources */,
+				4BFC8908F3B956400893ABD02EDE11D2 /* CPSegmentedScrollView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1878,13 +1898,13 @@
 		D7731AB9257579D644BA172B08F71259 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CPSegmentedScrollView;
-			target = DEAF4DF061DD60BFFE3FD7FBCC694890 /* CPSegmentedScrollView */;
+			target = C00384C09300C4B3306720089D71D96F /* CPSegmentedScrollView */;
 			targetProxy = C1D7D217C57DA438DC49D06378E5F32B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1902,288 +1922,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		284FEE42C7F1EA8A2F5E9E4F765F4473 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6073F76BB2EAEB530EBE62B29892165F /* Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CPSegmentedScrollView_ExampleUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		739F377E5083E8538EF2C7924A9AB69C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56E1619DA111C5EBBC2F2D5DD6812693 /* Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CPSegmentedScrollView_ExampleUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		752EB7A3435D3CE0E4FAEA783FBC4104 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBB10F23CC9B6D50132340717056BDA1 /* OCMockito.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCMockito/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCMockito/OCMockito.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OCMockito;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		78A13405B8004E5601C2D38C75D5A2F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8116ADDD12500055DCC8A68982482EE9 /* CPSegmentedScrollView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CPSegmentedScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CPSegmentedScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		82FA8C833F79DD11AF15FB149A6EC224 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D99C755707EB81FBF9CECA57D38932E /* OCHamcrest.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCHamcrest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCHamcrest/OCHamcrest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = OCHamcrest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A763F5D1CC40F5DE490C0223A23BD033 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0827056FBCAAA5FD684C602656DA6A3E /* Pods-CPSegmentedScrollView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Pods-CPSegmentedScrollView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CPSegmentedScrollView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C24636E8F4D261BC6D5F5C8253B3F7D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D99C755707EB81FBF9CECA57D38932E /* OCHamcrest.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OCHamcrest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OCHamcrest/OCHamcrest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OCHamcrest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C26CADF8ABF0EC29A94A6F4C262AC639 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8116ADDD12500055DCC8A68982482EE9 /* CPSegmentedScrollView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CPSegmentedScrollView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CPSegmentedScrollView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2201,84 +1940,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DD58F8E3DF600D2BAFF45559DE647DB4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2151E1E658426420A59016902DEE0939 /* Pods-CPSegmentedScrollView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Tests/Pods-CPSegmentedScrollView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CPSegmentedScrollView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E553BA7C19AFCFCAC545041AEA96B9C4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FE37DA70E726B5CBE4351DBD8079D5F /* Pods-CPSegmentedScrollView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Pods-CPSegmentedScrollView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CPSegmentedScrollView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E8417A1524B0D197D1BECD548458F790 /* Debug */ = {
+		0F62BE130EE7AF93FE4C7D73ED1B75A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBB10F23CC9B6D50132340717056BDA1 /* OCMockito.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -2303,11 +1979,282 @@
 			};
 			name = Debug;
 		};
-		F5106AD4097748B92AFCC50F97277A0D /* Debug */ = {
+		10110581B0259E89B2C2B2A3F8A66A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB10F23CC9B6D50132340717056BDA1 /* OCMockito.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCMockito/OCMockito-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCMockito/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCMockito/OCMockito.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OCMockito;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		392B50A7597AE847C7BC855778BAF08F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D99C755707EB81FBF9CECA57D38932E /* OCHamcrest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCHamcrest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCHamcrest/OCHamcrest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OCHamcrest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1145BB19E8BEC5E8109E4BFF756BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8116ADDD12500055DCC8A68982482EE9 /* CPSegmentedScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPSegmentedScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CPSegmentedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DD18CF18838AD6102C0BABACD6C0571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D99C755707EB81FBF9CECA57D38932E /* OCHamcrest.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OCHamcrest/OCHamcrest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCHamcrest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCHamcrest/OCHamcrest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OCHamcrest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D9954CF3C5D4029B5116EEB530A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6073F76BB2EAEB530EBE62B29892165F /* Pods-CPSegmentedScrollView_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CPSegmentedScrollView_ExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62249C4F6316DE9D6F4CD9A5C5DD3107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0827056FBCAAA5FD684C602656DA6A3E /* Pods-CPSegmentedScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Pods-CPSegmentedScrollView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CPSegmentedScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EF436C87F2F0DF1143ADC8E126C688C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2151E1E658426420A59016902DEE0939 /* Pods-CPSegmentedScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Tests/Pods-CPSegmentedScrollView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CPSegmentedScrollView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BA60848CCFAED39CB73E963ADCB859F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56DCB57B6DE10F5AC5C6A554467673E6 /* Pods-CPSegmentedScrollView_Tests.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -2318,7 +2265,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Tests/Pods-CPSegmentedScrollView_Tests.modulemap";
@@ -2336,14 +2283,115 @@
 			};
 			name = Debug;
 		};
+		A276D8720E769F01E8C74E3BF83153FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8116ADDD12500055DCC8A68982482EE9 /* CPSegmentedScrollView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CPSegmentedScrollView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CPSegmentedScrollView/CPSegmentedScrollView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CPSegmentedScrollView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D62B039CDD9F51984539E76406F0A83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE37DA70E726B5CBE4351DBD8079D5F /* Pods-CPSegmentedScrollView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_Example/Pods-CPSegmentedScrollView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CPSegmentedScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3D75809A3305D6D59A9A1EC7FC1AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E1619DA111C5EBBC2F2D5DD6812693 /* Pods-CPSegmentedScrollView_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CPSegmentedScrollView_ExampleUITests/Pods-CPSegmentedScrollView_ExampleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CPSegmentedScrollView_ExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		044385F706A27838CCB6D68BA406BEEF /* Build configuration list for PBXNativeTarget "Pods-CPSegmentedScrollView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F5106AD4097748B92AFCC50F97277A0D /* Debug */,
-				DD58F8E3DF600D2BAFF45559DE647DB4 /* Release */,
+				9BA60848CCFAED39CB73E963ADCB859F /* Debug */,
+				8EF436C87F2F0DF1143ADC8E126C688C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2351,8 +2399,8 @@
 		0C0A0C897F475C4516A6C7FBC3822A34 /* Build configuration list for PBXNativeTarget "Pods-CPSegmentedScrollView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E553BA7C19AFCFCAC545041AEA96B9C4 /* Debug */,
-				A763F5D1CC40F5DE490C0223A23BD033 /* Release */,
+				D62B039CDD9F51984539E76406F0A83F /* Debug */,
+				62249C4F6316DE9D6F4CD9A5C5DD3107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2360,8 +2408,8 @@
 		1ECAE65F6DBC7681CB7C470E94A904FE /* Build configuration list for PBXNativeTarget "OCHamcrest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C24636E8F4D261BC6D5F5C8253B3F7D6 /* Debug */,
-				82FA8C833F79DD11AF15FB149A6EC224 /* Release */,
+				392B50A7597AE847C7BC855778BAF08F /* Debug */,
+				4DD18CF18838AD6102C0BABACD6C0571 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2369,8 +2417,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2378,17 +2426,8 @@
 		4554FC56796C5D40FB054D6579A37324 /* Build configuration list for PBXNativeTarget "OCMockito" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8417A1524B0D197D1BECD548458F790 /* Debug */,
-				752EB7A3435D3CE0E4FAEA783FBC4104 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8D1131541D696B479EF4F951764BF826 /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C26CADF8ABF0EC29A94A6F4C262AC639 /* Debug */,
-				78A13405B8004E5601C2D38C75D5A2F8 /* Release */,
+				0F62BE130EE7AF93FE4C7D73ED1B75A4 /* Debug */,
+				10110581B0259E89B2C2B2A3F8A66A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2396,8 +2435,17 @@
 		9D9FD2599EA1D47483643648D33B18DA /* Build configuration list for PBXNativeTarget "Pods-CPSegmentedScrollView_ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				284FEE42C7F1EA8A2F5E9E4F765F4473 /* Debug */,
-				739F377E5083E8538EF2C7924A9AB69C /* Release */,
+				5D9954CF3C5D4029B5116EEB530A0000 /* Debug */,
+				E3D75809A3305D6D59A9A1EC7FC1AF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C047C09D3D78904F8621F791401F2E68 /* Build configuration list for PBXNativeTarget "CPSegmentedScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A276D8720E769F01E8C74E3BF83153FE /* Debug */,
+				4C1145BB19E8BEC5E8109E4BFF756BD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,6 +9,7 @@
 @import XCTest;
 @import OCMockito;
 @import CPSegmentedScrollView;
+#import <CPSegmentedScrollView/CLPScrollViewProxy.h>
 
 static const NSUInteger kCLPScrollViewSegmentedControlConsulTestsNumberOfItems = 5;
 
